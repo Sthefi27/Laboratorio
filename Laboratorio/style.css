@@ -1,0 +1,76 @@
+body { 
+    font-family: "Poppins";
+    background-color: #1f2832
+    
+}
+
+.formulario{
+    width: 300px;
+    margin: 10vh auto 0 auto;
+    padding: 40px;
+    border: 2px solid #545a71;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #b5c0e1;
+    font-weight: bolder;     
+    background-color: #383f4ee7;
+}
+
+#formulario_grupo {
+    gap: 7px;
+    margin-right: 15px;
+    margin-top: 25px;
+    font-size: medium;
+}
+#form_button {
+    font-size: 13px;
+    margin-top: 30px;
+    width: 300px;
+    height: 39px;
+    background-color: #565499 ;
+    color: beige;
+}
+span {
+    color: #e95252;
+    width: 80%;
+    margin-top: -20px;
+    margin-left: 1px;
+    font-size: 15px;
+    display: block 
+    
+}
+.icono-incorrecto2{
+left: 270px;
+position: relative;
+top: -28px;
+opacity: 2;
+}
+.icono-correcto2{
+    left: 270px;
+    position: relative;
+    top: -28px;
+    opacity: 2;
+}
+
+.icono-incorrecto {
+opacity: 0;
+}
+.icono-correcto {
+opacity: 0;
+    }
+.valido {
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 3px #4cd365;
+}
+
+.invalido {
+    border-radius: 4px;
+    box-shadow:inset 0 0 0 3px #DB5A5A ;
+}
+
+#first_text { margin-top: -5px;}
+#clave { width: 292px;height: 33px;margin-top: 5px;}
+#name {width: 292px;height: 33px; margin-top: 5px;} 
+#email {width: 292px;height: 33px; margin-top: 5px;} 
+#clave2 {width: 292px;height: 33px; margin-top: 5px;} 
+
